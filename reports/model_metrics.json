@@ -1,0 +1,36 @@
+{
+    "project": "CropGuard AI - Crop Disease Risk Analytics",
+    "dataset": {
+        "total_records": 5000,
+        "features": 19,
+        "engineered_features": 5,
+        "target_classes": [
+            "High Risk",
+            "Low Risk",
+            "Medium Risk"
+        ]
+    },
+    "models": {
+        "Logistic Regression": {
+            "accuracy": 0.962,
+            "f1_score": 0.9622,
+            "precision": 0.9626,
+            "recall": 0.962
+        },
+        "Random Forest": {
+            "accuracy": 0.964,
+            "f1_score": 0.9641,
+            "precision": 0.9642,
+            "recall": 0.964
+        },
+        "XGBoost": {
+            "accuracy": 0.957,
+            "f1_score": 0.9571,
+            "precision": 0.9573,
+            "recall": 0.957
+        }
+    },
+    "best_model": "Random Forest",
+    "best_model_accuracy": 0.964,
+    "best_model_f1": 0.9641
+}
