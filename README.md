@@ -242,6 +242,26 @@ cropguard-ai/
 
 ---
 
+## 📊 Reports Generated
+
+All reports saved to `reports/`:
+
+| Report | Description |
+|--------|-------------|
+| `model_metrics.json` | Accuracy, F1, Precision, Recall for all 3 models |
+| `project_report.md` | Executive summary with findings |
+| `exploration_summary.md` | Dataset statistical exploration |
+| `missing_value_analysis.md` | Data completeness audit |
+| `data_cleaning_log.md` | Cleaning steps and outlier treatment |
+| `feature_engineering_notes.md` | Feature formulas and rationale |
+| `eda_insights.md` | Key EDA findings and correlations |
+| `climate_impact_analysis.md` | Temperature/humidity/rainfall thresholds |
+| `logistic_regression_results.md` | LR model detailed results |
+| `random_forest_results.md` | RF model detailed results (BEST) |
+| `xgboost_results.md` | XGBoost model detailed results |
+
+---
+
 ## 👨‍💻 Author
 
 **Mandeep Kumar**
